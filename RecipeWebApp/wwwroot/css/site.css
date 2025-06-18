@@ -1,0 +1,53 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+.navbar {
+    padding-top: 0.25rem; /* Razmak gore */
+    padding-bottom: 0.25rem; /* Razmak dole */
+    font-size: 1.25rem; /* Veličina teksta */
+    min-height: 70px; /* Minimalna visina */
+}
+
+.card-img-top {
+    transition: transform 0.3s ease; /* glatka tranzicija */
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1); /* zumira za 10% */
+}
+.card {
+    overflow: hidden;
+}
+
+body {
+    background: linear-gradient(to right, #f8f9fa, #e0eafc);
+}

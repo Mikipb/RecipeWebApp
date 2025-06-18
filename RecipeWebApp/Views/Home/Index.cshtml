@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container text-center py-5">
+    <h1 class="display-4 mb-4">Welcome to Recipe Web App</h1>
+
+    <p class="lead">
+        Welcome to Recipe Web App: A web application designed to search for recipes from around the world. <br />
+        Offering an option to search for recipes, save them to favorites, and delete them.
+    </p>
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-3">
+            <div class="card shadow rounded-4">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <img src="https://www.themealdb.com/images/icons/meal-icon6.png" alt="Meal Icon" style="width: 24px;" class="me-2" />
+                        Total Meals
+                    </h5>
+                    <p class="card-text fs-4 fw-bold text-success">304</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card shadow rounded-4">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <img src="https://www.themealdb.com/images/icons/meal-icon4.png" alt="Ingredients Icon" style="width: 24px;" class="me-2" />
+                        Total Ingredients
+                    </h5>
+                    <p class="card-text fs-4 fw-bold text-primary">575</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card shadow rounded-4">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <img src="https://www.themealdb.com/images/icons/image2.png" alt="Image Icon" style="width: 24px;" class="me-2" />
+                        Images
+                    </h5>
+                    <p class="card-text fs-4 fw-bold text-danger">304</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <p class="text-muted fst-italic">
+            Discover new dishes every day and build your own personal cookbook.
+        </p>
+
+        <a asp-controller="Search" asp-action="Index" class="btn btn-primary btn-lg mt-3 px-5">
+            🔍 Search Now
+        </a>
+    </div>
+</div>
