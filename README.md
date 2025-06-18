@@ -27,9 +27,6 @@ Recipe Web App allows users to:
 |--------------|--------------|--------------|----------------|
 | ![image alt](https://github.com/Mikipb/RecipeWebApp/blob/35d71692f672e054ae7f2d0a0d4cb9ac21eb02f0/landingPage.jpg) | ![image alt](https://github.com/Mikipb/RecipeWebApp/blob/35d71692f672e054ae7f2d0a0d4cb9ac21eb02f0/search.jpg) | ![image alt](https://github.com/Mikipb/RecipeWebApp/blob/35d71692f672e054ae7f2d0a0d4cb9ac21eb02f0/mealinfo.jpg) | ![image alt](https://github.com/Mikipb/RecipeWebApp/blob/35d71692f672e054ae7f2d0a0d4cb9ac21eb02f0/favorites.jpg) |
 
-
-> *(You can add screenshots in a `wwwroot/images/screenshots/` folder and adjust the paths above.)*
-
 ## ⚙️ Getting Started
 
 ### 1. Clone the repository:
