@@ -23,9 +23,10 @@ Recipe Web App allows users to:
 
 ## 📸 Screenshots
 
-| Search Meals | Meal Details | Favorite Meals |
-|--------------|--------------|----------------|
-| ![search](screenshots/search.png) | ![details](screenshots/details.png) | ![favorites](screenshots/favorites.png) |
+| Landing Page | Search Meals | Meal Details | Favorite Meals |
+|--------------|--------------|--------------|----------------|
+| ![landing](screenshots/landing.png) | ![search](screenshots/search.png) | ![details](screenshots/details.png) | ![favorites](screenshots/favorites.png) |
+
 
 > *(You can add screenshots in a `wwwroot/images/screenshots/` folder and adjust the paths above.)*
 
