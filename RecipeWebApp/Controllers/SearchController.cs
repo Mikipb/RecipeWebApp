@@ -25,7 +25,7 @@ namespace RecipeWebApp.Controllers
             // Prvo pokušaj da userInput popuniš iz TempData ako nije došao iz query-ja
             if (string.IsNullOrEmpty(userInput) && TempData["LastSearch"] != null)
             {
-                userInput = TempData["LastSearch"].ToString();
+                userInput = TempData["LastSearch"]?.ToString();
                 TempData.Keep("LastSearch"); // da ostane za dalje ako treba opet
             }
 
@@ -78,7 +78,7 @@ namespace RecipeWebApp.Controllers
                         return View(new List<Meal>());
                     }
 
-                    return View(mealsData.meals); // Prosleđujemo listu u View
+                    return View(mealsData?.meals); // Prosleđujemo listu u View
                 }
                 else
                 {
@@ -103,7 +103,7 @@ namespace RecipeWebApp.Controllers
 
             if (TempData["LastSearch"] != null)
             {
-                ViewBag.LastSearch = TempData["LastSearch"].ToString();
+                ViewBag.LastSearch = TempData["LastSearch"]?.ToString();
                 TempData.Keep("LastSearch"); // da ostane dostupno za sledeći put ako treba
             }
 

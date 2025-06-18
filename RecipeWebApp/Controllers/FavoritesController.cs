@@ -74,7 +74,7 @@ namespace RecipeWebApp.Controllers
                 await _db.SaveChangesAsync();
             }
 
-            TempData["AlertMessage"] = $"You removed '{mealInDb.strMeal}' from favorites.";
+            TempData["AlertMessage"] = $"You removed '{mealInDb?.strMeal}' from favorites.";
             TempData["AlertType"] = "danger"; // za crveni alert
             return RedirectToAction("Index", "Favorites");
         }
