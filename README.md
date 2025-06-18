@@ -25,7 +25,7 @@ Recipe Web App allows users to:
 
 | Landing Page | Search Meals | Meal Details | Favorite Meals |
 |--------------|--------------|--------------|----------------|
-| ![landing](screenshots/landing.png) | ![search](screenshots/search.png) | ![details](screenshots/details.png) | ![favorites](screenshots/favorites.png) |
+| ![landing](file:///C:/Users/mihai/Desktop/pocetna.jpg) | ![search](file:///C:/Users/mihai/Desktop/search.jpg) | ![details](file:///C:/Users/mihai/Desktop/mealinfo.jpg) | ![favorites](file:///C:/Users/mihai/Desktop/favorites.jpg) |
 
 
 > *(You can add screenshots in a `wwwroot/images/screenshots/` folder and adjust the paths above.)*
